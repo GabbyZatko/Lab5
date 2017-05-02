@@ -21,7 +21,6 @@ public class GamePlay implements Serializable {
 	// ArrayList<GamePlayPlayerHand>();
 
 	private HashMap<UUID, Hand> hmPlayerHand = new HashMap<UUID, Hand>();
-
 	private Player PlayerCommon;
 	private Hand GameCommonHand;
 	private Rule rle;
